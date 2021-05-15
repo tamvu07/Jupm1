@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		B551E91A264D665900A4EAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551E919264D665900A4EAF1 /* AppDelegate.swift */; };
 		B551E91C264D665900A4EAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551E91B264D665900A4EAF1 /* SceneDelegate.swift */; };
-		B551E91E264D665900A4EAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551E91D264D665900A4EAF1 /* ViewController.swift */; };
 		B551E921264D665900A4EAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B551E91F264D665900A4EAF1 /* Main.storyboard */; };
 		B551E923264D665A00A4EAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B551E922264D665A00A4EAF1 /* Assets.xcassets */; };
 		B551E926264D665A00A4EAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B551E924264D665A00A4EAF1 /* LaunchScreen.storyboard */; };
+		B55BDE4A264FA26100D40884 /* MessagesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BDE49264FA26100D40884 /* MessagesTableCell.swift */; };
+		B55BDE4D264FACE200D40884 /* SettingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BDE4C264FACE200D40884 /* SettingTableCell.swift */; };
+		B55BDE66264FB6F600D40884 /* EditAccountHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55BDE65264FB6F600D40884 /* EditAccountHeaderView.xib */; };
+		B55BDE6A264FB71F00D40884 /* EditAccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BDE69264FB71F00D40884 /* EditAccountHeaderView.swift */; };
+		B56F8184264F6ED50045E951 /* DriverMenuSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F8183264F6ED50045E951 /* DriverMenuSettingVC.swift */; };
+		B56F8187264F6F1F0045E951 /* DriverEditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F8186264F6F1F0045E951 /* DriverEditProfileVC.swift */; };
+		B56F8191264F70390045E951 /* ProfileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F8190264F70390045E951 /* ProfileTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B551E916264D665900A4EAF1 /* Jump1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jump1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B551E919264D665900A4EAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B551E91B264D665900A4EAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B551E91D264D665900A4EAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B551E920264D665900A4EAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B551E922264D665A00A4EAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B551E925264D665A00A4EAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B551E927264D665A00A4EAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55BDE49264FA26100D40884 /* MessagesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableCell.swift; sourceTree = "<group>"; };
+		B55BDE4C264FACE200D40884 /* SettingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableCell.swift; sourceTree = "<group>"; };
+		B55BDE65264FB6F600D40884 /* EditAccountHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditAccountHeaderView.xib; sourceTree = "<group>"; };
+		B55BDE69264FB71F00D40884 /* EditAccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountHeaderView.swift; sourceTree = "<group>"; };
+		B56F8183264F6ED50045E951 /* DriverMenuSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMenuSettingVC.swift; sourceTree = "<group>"; };
+		B56F8186264F6F1F0045E951 /* DriverEditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverEditProfileVC.swift; sourceTree = "<group>"; };
+		B56F8190264F70390045E951 /* ProfileTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		B551E918264D665900A4EAF1 /* Jump1 */ = {
 			isa = PBXGroup;
 			children = (
+				B55BDE5F264FB5EC00D40884 /* View */,
+				B56F8181264F6E2E0045E951 /* Controller */,
 				B551E919264D665900A4EAF1 /* AppDelegate.swift */,
 				B551E91B264D665900A4EAF1 /* SceneDelegate.swift */,
-				B551E91D264D665900A4EAF1 /* ViewController.swift */,
 				B551E91F264D665900A4EAF1 /* Main.storyboard */,
 				B551E922264D665A00A4EAF1 /* Assets.xcassets */,
 				B551E924264D665A00A4EAF1 /* LaunchScreen.storyboard */,
 				B551E927264D665A00A4EAF1 /* Info.plist */,
 			);
 			path = Jump1;
+			sourceTree = "<group>";
+		};
+		B55BDE5F264FB5EC00D40884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B55BDE60264FB63800D40884 /* Header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B55BDE60264FB63800D40884 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B55BDE65264FB6F600D40884 /* EditAccountHeaderView.xib */,
+				B55BDE69264FB71F00D40884 /* EditAccountHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		B56F8181264F6E2E0045E951 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B56F818A264F6F4F0045E951 /* EditProfile */,
+				B56F8189264F6F3D0045E951 /* MenuSetting */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B56F8189264F6F3D0045E951 /* MenuSetting */ = {
+			isa = PBXGroup;
+			children = (
+				B56F818B264F6F680045E951 /* Cell */,
+				B56F8183264F6ED50045E951 /* DriverMenuSettingVC.swift */,
+			);
+			path = MenuSetting;
+			sourceTree = "<group>";
+		};
+		B56F818A264F6F4F0045E951 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				B56F8186264F6F1F0045E951 /* DriverEditProfileVC.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		B56F818B264F6F680045E951 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B56F8190264F70390045E951 /* ProfileTableCell.swift */,
+				B55BDE49264FA26100D40884 /* MessagesTableCell.swift */,
+				B55BDE4C264FACE200D40884 /* SettingTableCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B551E926264D665A00A4EAF1 /* LaunchScreen.storyboard in Resources */,
+				B55BDE66264FB6F600D40884 /* EditAccountHeaderView.xib in Resources */,
 				B551E923264D665A00A4EAF1 /* Assets.xcassets in Resources */,
 				B551E921264D665900A4EAF1 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B551E91E264D665900A4EAF1 /* ViewController.swift in Sources */,
+				B56F8187264F6F1F0045E951 /* DriverEditProfileVC.swift in Sources */,
 				B551E91A264D665900A4EAF1 /* AppDelegate.swift in Sources */,
+				B55BDE4D264FACE200D40884 /* SettingTableCell.swift in Sources */,
+				B56F8184264F6ED50045E951 /* DriverMenuSettingVC.swift in Sources */,
 				B551E91C264D665900A4EAF1 /* SceneDelegate.swift in Sources */,
+				B55BDE6A264FB71F00D40884 /* EditAccountHeaderView.swift in Sources */,
+				B55BDE4A264FA26100D40884 /* MessagesTableCell.swift in Sources */,
+				B56F8191264F70390045E951 /* ProfileTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
